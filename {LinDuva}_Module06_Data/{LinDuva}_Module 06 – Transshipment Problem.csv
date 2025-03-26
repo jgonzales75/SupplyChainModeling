@@ -1,0 +1,22 @@
+,,,,,,,,,,,,
+,,,,,Total Transportation Cost -->,,," $64,030.00 ",,,,
+,,,,,,,,,,,,
+,,,,,,,,,,,,
+Ship,,From,,To,Unit Cost,,Nodes,,Inflow,Outflow,Net Flow,Supply/Demand
+378,0,Candy Cane Canyon,7,Taffy Tundra, $48 ,,0,Candy Cane Canyon,0,378,-378,-378
+184,1,Chocolate Chip Cliffs,6,Starburst Starlit Skies, $49 ,,1,Chocolate Chip Cliffs,0,236,-236,-236
+0,1,Chocolate Chip Cliffs,7,Taffy Tundra, $27 ,,2,Fizzwhiz Fjord,0,282,-282,-282
+52,1,Chocolate Chip Cliffs,8,Toblerone Tower, $30 ,,3,Ginger Snap Garden,291,215,76,76
+282,2,Fizzwhiz Fjord,8,Toblerone Tower, $48 ,,4,Mochi Metropolis,215,0,215,215
+215,3,Ginger Snap Garden,4,Mochi Metropolis, $45 ,,5,Pineapple Pop Paradise,19,0,19,123
+0,3,Ginger Snap Garden,7,Taffy Tundra, $31 ,,6,Starburst Starlit Skies,184,0,184,184
+0,3,Ginger Snap Garden,8,Toblerone Tower, $48 ,,7,Taffy Tundra,378,178,200,200
+0,4,Mochi Metropolis,3,Ginger Snap Garden, $43 ,,8,Toblerone Tower,334,132,202,202
+0,4,Mochi Metropolis,6,Starburst Starlit Skies, $46 ,,,,,,,
+0,4,Mochi Metropolis,7,Taffy Tundra, $40 ,,,,,,,
+0,5,Pineapple Pop Paradise,4,Mochi Metropolis, $37 ,,,,,,,
+159,7,Taffy Tundra,3,Ginger Snap Garden, $33 ,,,,,,,
+0,7,Taffy Tundra,4,Mochi Metropolis, $46 ,,,,,,,
+19,7,Taffy Tundra,5,Pineapple Pop Paradise, $48 ,,,,,,,
+132,8,Toblerone Tower,3,Ginger Snap Garden, $45 ,,,,,,,
+0,8,Toblerone Tower,4,Mochi Metropolis, $44 ,,,,,,,
