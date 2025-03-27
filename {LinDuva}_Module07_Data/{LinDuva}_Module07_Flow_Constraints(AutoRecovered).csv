@@ -1,0 +1,18 @@
+,,,,,,,,,,,,
+,Maximum Flow -->,,,449,,,,,,,,
+,,,,,,,,,,,,
+Units of Flow,Links,,,,Upper Bound,,Nodes,,,,Net Flow,Supply / Demand
+,From,,To,,,,,,Inflow,Outflow,,
+122,0,Candy Cane Canyon,1,Chocolate Chip Cliffs,490,,0,Candy Cane Canyon,449,449,0,0
+147,0,Candy Cane Canyon,2,Frosted Fluff Fields,217,,1,Chocolate Chip Cliffs,122,122,0,0
+180,0,Candy Cane Canyon,3,Gingerbread Glades,420,,2,Frosted Fluff Fields,147,147,0,0
+0,1,Chocolate Chip Cliffs,2,Frosted Fluff Fields,208,,3,Gingerbread Glades,180,180,0,0
+122,1,Chocolate Chip Cliffs,4,Molasses Marsh,122,,4,Molasses Marsh,347,347,0,0
+147,2,Frosted Fluff Fields,4,Molasses Marsh,147,,5,Pixie Stix  Plateau,197,197,0,0
+78,3,Gingerbread Glades,4,Molasses Marsh,78,,6,Strawberry Swirl Stream,102,102,0,0
+102,3,Gingerbread Glades,6,Strawberry Swirl Stream,102,,7,Toffee Town,449,449,0,0
+150,4,Molasses Marsh,7,Toffee Town,468,,,,,,,
+197,4,Molasses Marsh,5,Pixie Stix  Plateau,291,,,,,,,
+197,5,Pixie Stix  Plateau,7,Toffee Town,197,,,,,,,
+102,6,Strawberry Swirl Stream,7,Toffee Town,263,,,,,,,
+449,7,Toffee Town,0,Candy Cane Canyon,9999,,, ,,,,
