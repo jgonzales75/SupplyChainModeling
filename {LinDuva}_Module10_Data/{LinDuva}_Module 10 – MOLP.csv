@@ -1,0 +1,41 @@
+﻿,,,,,,,,,,,,,,,,,,,,,
+Ship,From,,To ,,Unit Cost,Latitude (X1),Longitude (X2),Latitude (Y1),Longitude (Y2),Distance,Method,Binary,Congestion,Binary,,Nodes,,Inflow,Outflow,Net Flow,Supply/Demand
+6350,1,Candy Cane Canyon,2,Chocolate Chip Cliffs, $19 ,37.5,-102.5,35.23,-108.66,200.76,Diesel Trucks,1,24,0,,1,Candy Cane Canyon,0,9459,-9459,-9459
+1580,1,Candy Cane Canyon,3,Frosted Fluff Fields, $23 ,37.5,-102.5,44.1,-115.29,212.14,Air Freight,1,26,0,,2,Chocolate Chip Cliffs,6350,4959,1391,1391
+1529,1,Candy Cane Canyon,6,Pixie Stix Plateau, $6 ,37.5,-102.5,30.18,-112.83,200.13,Cargo Ships (Heavy Fuel Oil),1,85,1,,3,Frosted Fluff Fields,1580,0,1580,1580
+0,2,Chocolate Chip Cliffs,1,Candy Cane Canyon, $8 ,35.23,-108.66,37.5,-102.5,200.76,Electric/Hybrid Trucks,0,102,1,,4,Gingerbread Glades,1784,0,1784,1784
+0,2,Chocolate Chip Cliffs,3,Frosted Fluff Fields, $9 ,35.23,-108.66,44.1,-115.29,214.73,Air Freight,1,91,1,,5,Molten Mocha Marsh,1975,0,1975,1975
+1784,2,Chocolate Chip Cliffs,4,Gingerbread Glades, $17 ,35.23,-108.66,36.54,-90.7,192.08,Cargo Ships (Heavy Fuel Oil),1,98,1,,6,Pixie Stix Plateau,1529,0,1529,1529
+1975,2,Chocolate Chip Cliffs,5,Molten Mocha Marsh, $9 ,35.23,-108.66,36.13,-111.4,206.08,Diesel Rail,1,104,1,,7,Turkish Delight Tundra,1200,0,1200,1200
+0,2,Chocolate Chip Cliffs,6,Pixie Stix Plateau, $18 ,35.23,-108.66,30.18,-112.83,202.87,Diesel Rail,1,82,1,,,,,,,
+1200,2,Chocolate Chip Cliffs,7,Turkish Delight Tundra, $24 ,35.23,-108.66,41.57,-92.9,196.94,Cargo Ships (Heavy Fuel Oil),1,109,1,,,,,,,
+0,3,Frosted Fluff Fields,5,Molten Mocha Marsh, $24 ,44.1,-115.29,36.13,-111.4,217.19,Diesel Trucks,1,96,1,,,Tranportation Methods,,,,
+0,3,Frosted Fluff Fields,6,Pixie Stix Plateau, $14 ,44.1,-115.29,30.18,-112.83,214.14,Electric/Hybrid Trucks,0,30,0,,,Eco-Friendly Alt (0),Less Eco-Fiendly (1),,,
+0,4,Gingerbread Glades,1,Candy Cane Canyon, $14 ,36.54,-90.7,37.5,-102.5,189.18,Slow Steaming Cargo Ships,0,30,0,,,,,,,
+0,4,Gingerbread Glades,2,Chocolate Chip Cliffs, $22 ,36.54,-90.7,35.23,-108.66,192.08,Cargo Ships (Heavy Fuel Oil),1,84,1,,,Congestion Level,,,,
+0,4,Gingerbread Glades,3,Frosted Fluff Fields, $22 ,36.54,-90.7,44.1,-115.29,203.95,Air Freight,1,101,1,,,>= 70 (high) (1),otherwise low (0),,,
+0,5,Molten Mocha Marsh,1,Candy Cane Canyon, $18 ,36.13,-111.4,37.5,-102.5,203.38,Air Freight,1,82,1,,,,,,,
+0,5,Molten Mocha Marsh,2,Chocolate Chip Cliffs, $16 ,36.13,-111.4,35.23,-108.66,206.08,Air Freight,1,85,1,,,,,,,
+0,5,Molten Mocha Marsh,3,Frosted Fluff Fields, $7 ,36.13,-111.4,44.1,-115.29,217.19,Electric/Hybrid Trucks,0,87,1,,,,,,,
+0,5,Molten Mocha Marsh,7,Turkish Delight Tundra, $17 ,36.13,-111.4,41.57,-92.9,199.62,Cargo Ships (Heavy Fuel Oil),1,35,0,,,,,,,
+0,6,Pixie Stix Plateau,1,Candy Cane Canyon, $16 ,30.18,-112.83,37.5,-102.5,200.13,Electric/Hybrid Trucks,0,93,1,,,,,,,
+0,6,Pixie Stix Plateau,2,Chocolate Chip Cliffs, $21 ,30.18,-112.83,35.23,-108.66,202.87,Diesel Rail,1,28,0,,,,,,,
+0,6,Pixie Stix Plateau,3,Frosted Fluff Fields, $9 ,30.18,-112.83,44.1,-115.29,214.14,Air Freight,1,94,1,,,,,,,
+0,6,Pixie Stix Plateau,5,Molten Mocha Marsh, $16 ,30.18,-112.83,36.13,-111.4,205.47,Cargo Ships (Heavy Fuel Oil),1,98,1,,,,,,,
+0,7,Turkish Delight Tundra,4,Gingerbread Glades, $12 ,41.57,-92.9,36.54,-90.7,185.13,Cargo Ships (Heavy Fuel Oil),1,31,0,,,,,,,
+0,7,Turkish Delight Tundra,5,Molten Mocha Marsh, $19 ,41.57,-92.9,36.13,-111.4,199.62,Wind-powered Ships,0,93,1,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,OBJECTIVE,,Target,,,,,,,
+,,,,,,,,,,,,Total Transportation Cost," $243,067.00 "," $213,777.00 ",,,,,,,
+,,,,,,,,,,,,Total Distance Traveled," $2,902,018.87 "," $2,899,563.46 ",,,,,,,
+,,,,,,,,,,,,Eco-Friendliness,14418,14418,,,,,,,
+,,,,,,,,,,,,Congension Levels,6488,6488,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,OBJECTIVE,Totals,Tartget,Deviation,% Deviation,W,Weigthed % Deviation,,,,
+,,,,,,,,,,,Total Transportation Cost," $243,067.00 "," $213,777.00 "," $29,290.00 ",13.70%,1,13.70%,,,,
+,,,,,,,,,,,Total Distance Traveled," $2,902,018.87 "," $2,899,563.46 "," $2,455.42 ",0.08%,1,0.08%,,,,
+,,,,,,,,,,,Eco-Friendliness,14418,14418,0,0.00%,1,0.00%,,,,
+,,,,,,,,,,,Congension Levels,6488,6488,0,0.00%,1,0.00%,,,,
+,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,Minimax,0.17,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,

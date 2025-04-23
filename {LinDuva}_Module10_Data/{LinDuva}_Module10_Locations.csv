@@ -1,0 +1,8 @@
+location_id,location_name,latitude,longitude,supply,demand
+1,Candy Cane Canyon,37.5,-102.5,9459.0,
+2,Chocolate Chip Cliffs,35.23,-108.66,,1391.0
+3,Frosted Fluff Fields,44.1,-115.29,,1580.0
+4,Gingerbread Glades,36.54,-90.7,,1784.0
+5,Molten Mocha Marsh,36.13,-111.4,,1975.0
+6,Pixie Stix Plateau,30.18,-112.83,,1529.0
+7,Turkish Delight Tundra,41.57,-92.9,,1200.0
