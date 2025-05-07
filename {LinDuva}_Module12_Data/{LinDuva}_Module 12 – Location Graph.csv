@@ -1,0 +1,13 @@
+,,,,,,,,,,
+,Store Location,,Current DC,,,New DC,,,Model Decision,
+Stores,Latitude,Longitude,Latitude,Longitude,Current DC Distance,Latitude,Longitude,New DC Distance,Use New?,Distance
+Candy Cane Canyon,35.2,-98.45,41.1,-97.02,6.07,39.40,-108.280,10.69,TRUE,6.07
+Chocolate Chip Cliffs,38.15,-106.21,41.1,-97.02,9.65,39.40,-108.280,2.42,FALSE,2.42
+Fizzwhiz Fjord,36.72,-93.75,41.1,-97.02,5.47,39.40,-108.280,14.78,TRUE,5.47
+Ginger Snap Garden,39.92,-116.16,41.1,-97.02,19.18,39.40,-108.280,7.90,FALSE,7.90
+Mochi Metropolis,43.94,-110.57,41.1,-97.02,13.84,39.40,-108.280,5.08,FALSE,5.08
+Pineapple Pop Paradise,39.4,-108.28,41.1,-97.02,11.39,39.40,-108.280,0.00,FALSE,0.00
+Starburst Starlit Skies,44.39,-92.08,41.1,-97.02,5.94,39.40,-108.280,16.95,TRUE,5.94
+Taffy Tundra,40.33,-103.62,41.1,-97.02,6.64,39.40,-108.280,4.75,FALSE,4.75
+,,,,,,,,,,
+,Objective:,37.62,,,New DC:,39.40,-108.28,,,
